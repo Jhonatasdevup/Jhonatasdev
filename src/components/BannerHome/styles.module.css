@@ -1,0 +1,68 @@
+.hero {
+  background-color: #1b325f;
+  padding: 4rem 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+
+.textContent {
+  flex: 1;
+  width: 1292px;
+  color: #e9f2f9;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.title span {
+  color: #f26c4f;
+}
+
+.description p{
+  font-size: 1.2rem;
+  line-height: 1.8;
+  text-align: center;
+}
+
+.swiper {
+  width: 100%;
+}
+
+@media (max-width: 1280px) {
+  .textContent{
+    width: 1000px;
+  }
+  
+}
+
+@media (min-width: 480px) and (max-width: 1000px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .textContent{
+    width: 480px;
+  }
+
+  .highlightBox {
+    width: 480px;
+    height: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .textContent{
+    width: 360px;
+
+  }
+}

@@ -1,0 +1,73 @@
+.sectionMain {
+    width: 100%;
+    max-width: 1292px;
+    margin: 30px auto;
+    
+    padding: 60px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .title {
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 60px;
+    position: relative;
+  }
+  
+  .title::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 4px;
+    background-color: #F26C4F;
+    margin: 10px auto 0;
+    border-radius: 4px;
+  }
+  
+  .divSkills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    width: 100%;
+  }
+  
+  .divSkill {
+    width: 280px;
+    padding: 30px 20px;
+    background: #e9f2f900;
+    border-radius: 20px;
+    
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .divSkill:hover {
+    background: #E9F2F9;
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.15);
+    
+  }
+  .divSkill:hover .nameskill {
+    color: #0f1b33; /* Ou qualquer cor que você quiser */
+  }
+  
+  .nameskill {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin: 15px 0 10px;
+  }
+  
+  .descriptionSkill {
+    font-size: 0.95rem;
+    color: #d2d2d2;
+    line-height: 1.5;
+  }
+  
+  .divSkill:hover .descriptionSkill{
+    color: #474747;
+  }

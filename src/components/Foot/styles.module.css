@@ -1,0 +1,45 @@
+/* components/Footer/Footer.module.css */
+.footer {
+    background-color: #1B325F;
+    color: #E9F2F9;
+    padding: 2rem 1rem;
+    font-family: 'Segoe UI', sans-serif;
+    border-top: 4px solid #3A89C9;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .nav {
+    margin-bottom: 1rem;
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu li a {
+    color: #E9F2F9;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .menu li a:hover {
+    color: #F26C4F;
+  }
+  
+  .copy {
+    font-size: 0.9rem;
+    color: #9CC4E4;
+  }
+  
