@@ -18,7 +18,7 @@ export default function Header() {
   };
 
   return (
-    <header>
+    <header className={styles.header}>
       <section className={styles.header}>
         <nav className={styles.nav}>
           <div className={styles.navDesktop}>
@@ -73,34 +73,34 @@ export default function Header() {
               }}
             >
               <List>
-                <ListItem component="a" href="#about" sx={{ marginTop: 3 }}>
+                <ListItem component="a" href="#about" sx={{ marginTop: 3 }} onClick={()=> setOpen(false)}>
                   <PersonIcon
                     sx={{ fontSize: 26, color: " #F26C4F", marginRight: 2 }}
-                  />{" "}
+                  />
                   <span className={styles.span}>Sobre mim</span>
                 </ListItem>
-                <ListItem component="a" href="#skills" sx={{ marginTop: 2 }}>
+                <ListItem component="a" href="#skills" sx={{ marginTop: 2 }} onClick={()=> setOpen(false)}>
                   <BuildIcon
                     sx={{ fontSize: 26, color: " #F26C4F", marginRight: 2 }}
-                  />{" "}
+                  />
                   <span className={styles.span}>Skills</span>
                 </ListItem>
-                <ListItem component="a" href="#projetos" sx={{ marginTop: 2 }}>
+                <ListItem component="a" href="#projetos" sx={{ marginTop: 2 }} onClick={()=> setOpen(false)}>
                   <FolderOpenIcon
                     sx={{ fontSize: 26, color: " #F26C4F", marginRight: 2 }}
-                  />{" "}
+                  />
                   <span className={styles.span}>Projetos</span>
                 </ListItem>
-                <ListItem component="a" href="#educacao" sx={{ marginTop: 2 }}>
+                <ListItem component="a" href="#educacao" sx={{ marginTop: 2 }} onClick={()=> setOpen(false)}>
                   <SchoolIcon
                     sx={{ fontSize: 26, color: " #F26C4F", marginRight: 2 }}
-                  />{" "}
+                  />
                   <span className={styles.span}>Educação e Certificações</span>
                 </ListItem>
-                <ListItem component="a" href="#contato" sx={{ marginTop: 2 }}>
+                <ListItem component="a" href="#contato" sx={{ marginTop: 2 }} onClick={()=> setOpen(false)}>
                   <MailIcon
                     sx={{ fontSize: 26, color: " #F26C4F", marginRight: 2 }}
-                  />{" "}
+                  />
                   <span className={styles.span}>Contato</span>
                 </ListItem>
               </List>

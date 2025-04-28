@@ -4,7 +4,7 @@ import styles from "./styles.module.css";
 
 export default function BannerHome() {
   return (
-    <section className={styles.hero}>
+    <section className={styles.sectionMain}>
 
 
         <div className={styles.textContent}>
