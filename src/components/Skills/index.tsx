@@ -42,7 +42,7 @@ export default function Skills() {
     },
     {
       id: 7,
-      img: "/imgs/React.png",
+      img: "/imgs/react.png",
       skill: "React Native",
       description: "Framework para criação de aplicativos móveis nativos com React."
     },
@@ -54,7 +54,7 @@ export default function Skills() {
     },
     {
       id: 9,
-      img: "/imgs/Firebase.png",
+      img: "/imgs/firebase.png",
       skill: "Firebase",
       description: "Plataforma da Google com serviços como autenticação, banco de dados e hosting."
     },
