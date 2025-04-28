@@ -30,7 +30,7 @@ export default function Skills() {
     },
     {
       id: 5,
-      img: "/imgs/React.png",
+      img: "/imgs/react.png",
       skill: "React JS",
       description: "Biblioteca JavaScript para construção de interfaces de usuário reativas e eficientes."
     },
