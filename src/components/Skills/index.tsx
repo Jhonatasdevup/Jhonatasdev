@@ -54,7 +54,7 @@ export default function Skills() {
     },
     {
       id: 9,
-      img: "/imgs/firebase.png",
+      img: "/imgs/Firebase.png",
       skill: "Firebase",
       description: "Plataforma da Google com serviços como autenticação, banco de dados e hosting."
     },
