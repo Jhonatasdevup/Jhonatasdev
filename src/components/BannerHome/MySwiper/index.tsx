@@ -52,7 +52,7 @@ export default function HeroSwiper() {
   const width = windowsSize.width ?? 0
 
   const isCell = width <= 960
-  console.log(!isCell)
+
   return (
     <div className={styles.wrapper}>
         <Swiper
