@@ -73,31 +73,31 @@ export default function Header() {
               }}
             >
               <List>
-                <ListItem component="a" href="#About" sx={{ marginTop: 3 }}>
+                <ListItem component="a" href="#about" sx={{ marginTop: 3 }}>
                   <PersonIcon
                     sx={{ fontSize: 26, color: " #F26C4F", marginRight: 2 }}
                   />{" "}
                   <span className={styles.span}>Sobre mim</span>
                 </ListItem>
-                <ListItem component="a" href="#Skills" sx={{ marginTop: 2 }}>
+                <ListItem component="a" href="#skills" sx={{ marginTop: 2 }}>
                   <BuildIcon
                     sx={{ fontSize: 26, color: " #F26C4F", marginRight: 2 }}
                   />{" "}
                   <span className={styles.span}>Skills</span>
                 </ListItem>
-                <ListItem component="a" href="#Projetos" sx={{ marginTop: 2 }}>
+                <ListItem component="a" href="#projetos" sx={{ marginTop: 2 }}>
                   <FolderOpenIcon
                     sx={{ fontSize: 26, color: " #F26C4F", marginRight: 2 }}
                   />{" "}
                   <span className={styles.span}>Projetos</span>
                 </ListItem>
-                <ListItem component="a" href="#Educacao" sx={{ marginTop: 2 }}>
+                <ListItem component="a" href="#educacao" sx={{ marginTop: 2 }}>
                   <SchoolIcon
                     sx={{ fontSize: 26, color: " #F26C4F", marginRight: 2 }}
                   />{" "}
                   <span className={styles.span}>Educação e Certificações</span>
                 </ListItem>
-                <ListItem component="a" href="#Contato" sx={{ marginTop: 2 }}>
+                <ListItem component="a" href="#contato" sx={{ marginTop: 2 }}>
                   <MailIcon
                     sx={{ fontSize: 26, color: " #F26C4F", marginRight: 2 }}
                   />{" "}
