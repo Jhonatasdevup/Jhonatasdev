@@ -55,7 +55,7 @@ export const metadata: Metadata = {
         url: "/opengraph-image.png", // Coloque uma imagem de divulgação no public/ depois!
         width: 1200,
         height: 630,
-        alt: "Jhonatas Oliveira - Criação de Sites e Aplicativos",
+        alt: "Jhonatas - Criação de Sites e Aplicativos",
       },
     ],
   },
@@ -64,7 +64,6 @@ export const metadata: Metadata = {
     title: "Jhonatas Oliveira | Criação de Sites e Aplicativos Profissionais",
     description:
       "Transforme sua presença online! Sites, landing pages e apps mobile modernos e personalizados.",
-    site: "@seutwitter", // Se você tiver Twitter/X, coloque aqui, senão apaga essa linha
     images: ["/opengraph-image.png"],
   },
   robots: {
