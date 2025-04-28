@@ -42,7 +42,7 @@ export default function Skills() {
     },
     {
       id: 7,
-      img: "/imgs/react.png",
+      img: "/imgs/ReactNative.png",
       skill: "React Native",
       description: "Framework para criação de aplicativos móveis nativos com React."
     },
