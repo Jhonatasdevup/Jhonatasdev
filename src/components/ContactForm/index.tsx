@@ -12,11 +12,12 @@ import {
   FormControlLabel,
   Checkbox,
   useTheme,
-  useMediaQuery
+  useMediaQuery,
 } from '@mui/material';
 import SendIcon from '@mui/icons-material/Send';
 import axios from 'axios';
 import ContactInfo from './info';
+import Link from 'next/link';
 
 const ContactForm = () => {
   const theme = useTheme();
@@ -186,7 +187,7 @@ const ContactForm = () => {
                 }
                 label={
                   <Typography variant="body2" sx={{ color: '#1B325F', fontSize: { xs: '0.75rem', sm: '0.875rem' } }}>
-                    Concordo com os Termos e Condições de acordo com a LGPD e nossa Política de Privacidade
+                    Concordo com os Termos e Condições de acordo com a LGPD e nossa <Link href="/PoliticaDePrivacidade">Política de privacidade</Link>
                   </Typography>
                 }
                 sx={{ mt: 1 }}
