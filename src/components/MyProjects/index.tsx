@@ -35,7 +35,7 @@ const projetosData = [
   {
     id: 4,
     type: 'Web',
-    img: '/projetos/excelcolors.png',
+    img: '/projetos/excelcolorsprojeto.png',
     titulo: 'Site Institucional Excel Colors',
     descricao:
       'Desenvolvimento do site institucional da Excel Colors, empresa especializada em pintura eletrostática e jateamento de peças metálicas. O site destaca os serviços com um design moderno e responsivo, além de apresentar seções explicativas sobre os processos, diferenciais da empresa e um formulário de contato funcional. O conteúdo é otimizado para SEO, reforçando a presença digital da marca e facilitando o alcance de novos clientes.',
