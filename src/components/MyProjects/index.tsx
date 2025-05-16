@@ -12,7 +12,7 @@ const projetosData = [
     titulo: 'Site Institucional KSERVICE',
     descricao:
       'Desenvolvimento de uma landing page institucional para a KSERVICE, empresa de assistência técnica especializada em linha branca. O site inclui um formulário de contato funcional com envio via e-mail, SEO otimizado para melhorar a visibilidade no Google e design responsivo adaptado para todos os dispositivos.',
-    tecnologias: ['HTML5', 'CSS3', 'React', 'Next.js', 'Nodemailer', 'Material UI']
+    tecnologias: ['HTML5', 'CSS3', 'Next.js', 'Nodemailer', 'Material UI']
   },
   {
     id: 2,
@@ -30,7 +30,16 @@ const projetosData = [
     titulo: "Site Institucional e Catálogo ALMIG Epi's",
     descricao:
       'Criação do site institucional da ALMIG, loja especializada em EPI’s, abrasivos e ferramentas. O projeto inclui catálogo virtual de produtos com navegação intuitiva, carrossel de imagens, formulário de contato integrado e layout responsivo. Ideal para reforçar a presença digital da empresa e atrair novos clientes.',
-    tecnologias: ['HTML5', 'CSS3', 'React', 'Next.js', 'Nodemailer', 'Material UI', 'swiper']
+    tecnologias: ['HTML5', 'CSS3', 'Next.js', 'Nodemailer', 'Material UI', 'swiper']
+  },
+  {
+    id: 4,
+    type: 'Web',
+    img: '/projetos/excelcolors.png',
+    titulo: 'Site Institucional Excel Colors',
+    descricao:
+      'Desenvolvimento do site institucional da Excel Colors, empresa especializada em pintura eletrostática e jateamento de peças metálicas. O site destaca os serviços com um design moderno e responsivo, além de apresentar seções explicativas sobre os processos, diferenciais da empresa e um formulário de contato funcional. O conteúdo é otimizado para SEO, reforçando a presença digital da marca e facilitando o alcance de novos clientes.',
+    tecnologias: ['HTML5', 'CSS3', 'Next.js', 'Nodemailer', 'Material UI']
   },
 ];
 
